@@ -1,7 +1,6 @@
 import "./styles.css";
 const canvas = document.querySelector("#draw-area");
 const context = canvas.getContext("2d");
-
 canvas.addEventListener("mousemove", event => {
   draw(event.layerX, event.layerY);
 });
